@@ -16,7 +16,7 @@ minhaImagem.onclick = function() {
   if(meuSrc === 'images/logo_simplement_it_2.png') {
     minhaImagem.setAttribute ('src', 'images/logo_simplement_it_3.png');
   } else {
-    minhaImagem.setAttribute ('src', 'images/logo_simplement_it_2.png');
+    minhaImagem.setAttribute ('src', 'images/simplementit-logo-b120.png');
   }
 }
 
