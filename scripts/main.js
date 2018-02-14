@@ -16,7 +16,7 @@ minhaImagem.onclick = function() {
   if(meuSrc === 'images/logo_simplement_it_2.png') {
     minhaImagem.setAttribute ('src', 'images/logo_simplement_it_3.png');
   } else {
-    minhaImagem.setAttribute ('src', 'images/logo_simplement_it_2.png');
+    minhaImagem.setAttribute ('src', 'images/simplementit-logo-b120.png');
   }
 }
 
@@ -27,7 +27,7 @@ var meuHeading = document.querySelector('h1');
 function setUserName() {
   var meuNome = prompt('Por favor digite o seu nome.');
   localStorage.setItem('name', meuNome);
-  meuHeading.innerHTML = 'Mozzila is cool, ' + meuNome;
+  meuHeading.innerHTML = 'O CS acredita que o seu nome: , ' + meuNome + ' é foleiro à brava, he, he, he... :)';
 }
 
 if(!localStorage.getItem('name')) {
