@@ -27,7 +27,7 @@ var meuHeading = document.querySelector('h1');
 function setUserName() {
   var meuNome = prompt('Por favor digite o seu nome.');
   localStorage.setItem('name', meuNome);
-  meuHeading.innerHTML = 'Mozzila is cool, ' + meuNome;
+  meuHeading.innerHTML = 'O CS acredita que o seu nome: , ' + meuNome + ' é foleiro à brava, he, he, he... :)';
 }
 
 if(!localStorage.getItem('name')) {
